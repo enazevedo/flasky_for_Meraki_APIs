@@ -9,7 +9,7 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello from Flask!'
 
-@app.route('/IFTTT')
+@app.route('/ifttt')
 def ifttt_home():
     return 'Circulating. Nothing to see here at the home of IFTTT...'
 
